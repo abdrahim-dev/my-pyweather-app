@@ -36,6 +36,3 @@ def get_weather(city: str) -> dict:
         "conditions": data["weather"][0]["description"],
         "humidity": data["main"]["humidity"],
     }
-    
-print(get_weather("Berlin"))
-
